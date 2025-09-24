@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Image Optimization — Before & After Gallery</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!--
+    Instructions:
+    1) Replace image paths with YOUR OWN photos (put files in the images/ folder).
+    2) Keep each pair: the first figure is the original ("Before"), the second is the optimized ("After — <technique>").
+    3) Complete the figcaptions and meta list items (dimensions, format, file size). You can check file size after export.
+    4) Publish: push to GitHub AND deploy to your MCC cPanel (http://username.mccweb.net/optimization/index.html).
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <h1>Web Image Optimization</h1>
+    <p class="tagline">Using your own photos to practice core editing skills in a web workflow.</p>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p>
+        Replace each example with your own work. For each technique, show a <strong>Before</strong> and an <strong>After</strong> image,
+        then describe what you changed. Record dimensions, format, and final file size for the After image.
+      </p>
+      <aside class="help">
+        <h2>Help Links (Photopea)</h2>
+        <ul>
+          <li><a href="https://www.photopea.com/learn/" target="_blank" rel="noopener">Photopea — Learn (official)</a></li>
+          <li><a href="https://www.photopea.com/tuts/how-to-crop-a-photo-online/" target="_blank" rel="noopener">Crop a Photo</a></li>
+          <li><a href="https://www.photopea.com/learn/image-size" target="_blank" rel="noopener">Image Size / Resize</a></li>
+          <li><a href="https://www.photopea.com/learn/free-transform" target="_blank" rel="noopener">Free Transform (rotate / scale)</a></li>
+          <li><a href="https://www.photopea.com/learn/adjustment-layers" target="_blank" rel="noopener">Adjustments (exposure / contrast)</a></li>
+          <li><a href="https://www.photopea.com/learn/export-jpg" target="_blank" rel="noopener">Export JPG</a> · <a href="https://www.photopea.com/learn/export-png" target="_blank" rel="noopener">Export PNG</a> · <a href="https://www.photopea.com/learn/export-webp" target="_blank" rel="noopener">Export WebP</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLO3K3VFvlU6D1KgYzMtAyFEBR3mkxl9Yw" target="_blank" rel="noopener">YouTube Playlist — Photopea Tutorials</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Technique: Crop -->
+    <section id="crop" class="technique">
+      <h2>Crop</h2>
+      <p class="goal">Goal: remove distractions and improve composition (rule of thirds, subject framing).</p>
+      <div class="pair" role="group" aria-label="Crop comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food1.JPG" alt="Mongolian grill" width="800" height="533">
+          <figcaption>
+          To much visible area space want to crop the picture and close in on the food instead of the surrounding objects/items.
+          </figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Crop</div>
+          <img src="images/food1after.jpg" alt="Mongolian grill" width="800" height="533">
+          <figcaption>
+            Cropped the picture to focus on the center of the picture to show the food more clearly
+            <ul class="meta">
+              <li>Dimensions: ____800__ × _____533_ px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: __38.8____ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Technique: Resize -->
+    <section id="resize" class="technique">
+      <h2>Resize</h2>
+      <p class="goal">Goal: scale the image to an appropriate display width (e.g., 1200px hero, 800px content, 400px thumbnail).</p>
+      <div class="pair" role="group" aria-label="Resize comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food4.JPG" alt="Tacos" width="1600" height="1067">
+          <figcaption> Picture is zoomed/to big for the window screen.</figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Resize</div>
+          <img src="images/food4after.jpg" alt="Tacos" width="800" height="533">
+          <figcaption>
+            Resized picture to zoom out to capture more in detail of the tacos.
+            <ul class="meta">
+              <li>Dimensions: 800 × 533 px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: __26.4____ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Technique: Rotate -->
+    <section id="rotate" class="technique">
+      <h2>Rotate</h2>
+      <p class="goal">Goal: fix horizon tilt or adjust orientation.</p>
+      <div class="pair" role="group" aria-label="Rotate comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food2.JPG" alt="Wings" width="800" height="533">
+          <figcaption>Normal picture trying to rotate to capture from a different view.</figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Rotate</div>
+          <img src="images/food2after.jpg" alt="Wings" width="800" height="533">
+          <figcaption>
+            Used transform flipped horizontally.
+            <ul class="meta">
+              <li>Dimensions: _338_____ × ____600__ px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: ___28.2___ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Technique: Flip -->
+    <section id="flip" class="technique">
+      <h2>Flip</h2>
+      <p class="goal">Goal: create a mirrored composition or correct camera orientation if needed.</p>
+      <div class="pair" role="group" aria-label="Flip comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food5.JPG" alt="Asian Food" width="800" height="533">
+          <figcaption>Original orientation.</figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Flip</div>
+          <img src="images/food5after.jpg" alt="Asian Food" width="800" height="533">
+          <figcaption>
+            Flipped/mirror the before image to see a mirror reflection.
+            <ul class="meta">
+              <li>Dimensions: ____300__ × ____533__ px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: __30.0____ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Technique: Exposure / Contrast -->
+    <section id="exposure" class="technique">
+      <h2>Exposure / Contrast</h2>
+      <p class="goal">Goal: improve clarity with basic tonal adjustments (exposure, contrast, shadows/highlights).</p>
+      <div class="pair" role="group" aria-label="Exposure comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food3.JPG" alt="Gyro" width="800" height="533">
+          <figcaption>Original photo with no exposure or contrast</figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Exposure / Contrast</div>
+          <img src="images/food3after.jpg" alt="Gyro" width="800" height="533">
+          <figcaption>
+            Added some exposure and contrast to the picture.
+            <ul class="meta">
+              <li>Dimensions: ___400___ × ____711__ px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: ___37.3___ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Technique: Format / Compression -->
+    <section id="format" class="technique">
+      <h2>Format / Compression</h2>
+      <p class="goal">Goal: export to an efficient web format (JPG or WebP) and reduce file size while preserving quality.</p>
+      <div class="pair" role="group" aria-label="Format and compression comparison">
+        <figure>
+          <div class="label before" aria-hidden="true">Before</div>
+          <img src="images/food6.JPG" alt="Noodles" width="800" height="533">
+          <figcaption>Original PNG (large size).</figcaption>
+        </figure>
+        <figure>
+          <div class="label after" aria-hidden="true">After — Export (JPG/WebP)</div>
+          <img src="images/food6after.jpg" alt="Noodles" width="800" height="533">
+          <figcaption>
+            What you changed: exported as JPG/WebP at ~70–80% quality.
+            <ul class="meta">
+              <li>Dimensions: __800____ × ___1422___ px</li>
+              <li>Format: JPG / WebP</li>
+              <li>File size: ____133__ KB</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Your Name — Course: ADD 103</p>
+  </footer>
+</body>
+</html>
