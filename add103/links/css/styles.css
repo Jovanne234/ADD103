@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color:ivory
+}
+nav{
+    text-align: center;
+}
+nav a{
+    font-size: larger;
+    color:black;
+    padding: 10px 20px;
+    background: green;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 2px solid green;
+    
+}
+nav a:hover{
+    color:green;
+    background:black;
+}
+
+a{
+    color:green;
+    background:black;
+}
+
+
+h1{
+    text-align: center;
+}
