@@ -1,0 +1,48 @@
+body{
+    background:#fbe5b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+
+img{
+    width:500px;
+    display:block;
+    margin:10px auto;
+    padding:20px;
+    background:lightblue;
+    border:3px solid black;
+    border-radius:100px
+}
+
+h2 {
+    color:blue;
+}
+
+h1{
+    text-align:center;
+    color:blue;
+    font-family:sans-serif;
+}
+ul{
+    list-style:square;
+}
+
+ol{
+    list-style:upper-roman;
+}
+
+dt{
+    color:darkblue;
+}
+
+dd{
+    color:red;
+}
+
+dl{
+    color:darkcyan;
+}
+
+p{
+    color:darkcyan;
+}
