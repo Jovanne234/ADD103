@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table Basics</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  
+  <style>
+    table, 
+        th, 
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Table Basics</h1>
+    </header>
+
+    <nav>
+      <a href="index.html" class="nav-button">Table Basics</a>
+      <a href="styling-tables.html" class="nav-button">Styling Tables</a>
+      <a href="calendar.html" class="nav-button">Creating a Calendar</a>
+
+    </nav>
+
+    <main>
+      <h2>Class Schedule</h2>
+      
+
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+        </tr>
+
+        <tr>
+          <th>8:00 - 9:00</th>
+          <td rowspan="2">Algebra</td>
+          <td>English</td>
+          <td rowspan="2">Graphic Design</td>
+          <td>Coding</td>
+        </tr>
+
+        <tr>
+          <th>9:00 - 10:00</th>
+          <td>Python</td>
+          <td>Python</td>
+        </tr>
+
+        <tr>
+          <th>10:00 - 11:00</th>
+          <td>Bio</td>
+          <td rowspan="2">Computer Science</td>
+          <td>Anatomy</td>
+          <td rowspan="2">Tutor</td>
+        </tr>
+
+        <tr>
+          <th>11:00 - 12:00</th>
+          <td>History</td>
+          <td>Lunch</td>
+        </tr>
+
+        <tr>
+          <th>12:00 - 1:00</th>
+          <td colspan="4">Free Time</td>
+        </tr>
+
+        <tr>
+          <th>1:00 - 2:00</th>
+          <td>Speech</td>
+          <td>Econ</td>
+          <td>Design</td>
+          <td>Chem</td>
+        </tr>
+      </table>
+    </main>
+  </div>
+</body>
+</html>

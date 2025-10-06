@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Styling Tables</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+      vertical-align: middle;
+    }
+
+    
+    th {
+      background-color: #006400;
+      color: white;
+      font-weight: bold;
+    }
+
+   
+    tr:hover {
+      background-color: lightblue;
+    }
+
+    
+    td {
+        text-align: center;
+        vertical-align: middle;
+        
+    }
+    
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Styling Tables</h1>
+    </header>
+
+    <nav>
+      <a href="index.html" class="nav-button">Table Basics</a>
+      <a href="styling-tables.html" class="nav-button">Styling Tables</a>
+      <a href="calendar.html" class="nav-button">Creating a Calendar</a>
+    </nav>
+
+    <main>
+      <h2>Weekly Class Schedule</h2>
+   
+
+      <table>
+       
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        
+        <tr>
+          <th>8:00 - 9:00</th>
+          <td rowspan="2">Bio</td>
+          <td>Algebra</td>
+          <td rowspan="2">Speech</td>
+          <td>Gov</td>
+          <td>Econ</td>
+        </tr>
+
+        <tr>
+          <th>9:00 - 10:00</th>
+          <td>Geo</td>
+          <td>Design</td>
+          <td>Computer</td>
+        </tr>
+
+        <tr>
+          <th>10:00 - 11:00</th>
+          <td>Web Design</td>
+          <td rowspan="2">English</td>
+          <td>Chem</td>
+          <td rowspan="2">Study Session</td>
+          <td>Homework</td>
+        </tr>
+
+        <tr>
+          <th>11:00 - 12:00</th>
+          <td>Weights</td>
+          <td>Calc</td>
+          <td>Anatomy</td>
+          
+        </tr>
+
+        <tr>
+          <th>12:00 - 1:00</th>
+          <td colspan="5">Free Time</td>
+        </tr>
+
+        <tr>
+          <th>1:00 - 2:00</th>
+          <td rowspan="2">Python</td>
+          <td>Java</td>
+          <td>Physics</td>
+          <td>Geo</td>
+          <td rowspan="2">Calc 2</td>
+        </tr>
+
+        <tr>
+          <th>2:00 - 3:00</th>
+          <td>Geometry</td>
+          <td rowspan="2">History</td>
+          <td>Chem 2</td>
+        </tr>
+
+        <tr>
+          <th>3:00 - 4:00</th>
+          <td>Free</td>
+          <td>Computer</td>
+          <td>English 101</td>
+          <td>Geometry 2</td>
+        </tr>
+
+        <tr>
+          <th>4:00 - 5:00</th>
+          <td colspan="5">Tutor Session</td>
+        </tr>
+      </table>
+    </main>
+  </div>
+</body>
+</html>
