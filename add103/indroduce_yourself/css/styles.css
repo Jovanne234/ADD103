@@ -1,0 +1,131 @@
+nav{
+    text-align: center;
+}
+nav a {
+    font-size: larger;
+    color:black;
+    padding: 10px 20px;
+    background: lightblue;
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 2px solid darkblue;
+}
+
+nav a:hover{
+    color:white;
+    background-color: lightblue;
+    
+}
+
+body {
+    background-image: url(../images/blue.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.info {
+    border: 2px solid #2563eb;       
+    background-color: white;        
+    padding: 16px;                   
+    border-radius: 10px;              
+    margin: 20px 0;                   
+}
+
+.info ul {
+    margin-left: 20px;                
+    line-height: 1.6;
+}
+
+.img{
+    display: block;
+    width:250px;
+    height:auto;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+#car370z {
+    display: flex;
+    background: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center; /* centers elements/items along the axis */
+}
+
+#car370z img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+#bmw {
+    display: flex;
+    background: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    flex-direction: row-reverse; /* horizontal right to left */
+}
+
+#bmw img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+#car370z p, #bmw p {
+    flex: 1;  /* take as much space in box but share equally with other elements */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#val, #wizard101, #fc26 {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 32%;         
+    float: left;      /* makes 3 boxes to the left */
+    box-sizing: border-box;
+    margin-right: 2%;   
+}
+
+
+#fc26 {
+    margin-right: 0;
+}
+
+
+#val-img, #wizard101-img, #fc26-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#val-text, #wizard101-text, #fc26-text {
+    font-size: 16px;
+    line-height: 1.5; /*gives space in between lines */
+}
+
