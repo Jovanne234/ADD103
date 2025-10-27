@@ -1,0 +1,94 @@
+/*  font-family: "Roboto Mono"
+font-family: "Montserrat" */
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: lightcyan;
+    color: #0A1128;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4db6ac;
+}
+
+
+
+header {
+    background-color:darkblue;
+    color:white;
+    text-align: center;
+}
+
+
+nav {
+    background-color: pink;
+    text-align:center;
+    padding: 10px 0;
+}
+
+
+nav a {
+    display: inline-block;
+    color:#002e63 ;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+
+nav a:hover{
+    background-color: #E6E6FA;
+}
+
+
+
+aside{
+    float:left;
+    width: 25%;
+    background-color:gray;
+    color:white;
+    padding: 20px;
+}
+
+
+main {
+    display: inline-block;
+    width: 70%;
+    padding: 20px;
+    overflow: auto;
+}
+
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin:auto;
+
+}
+
+figure figcaption {
+    text-align:center;
+    margin-top: 10px;
+    font-style: italic;
+}
+footer {
+    clear: both;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
