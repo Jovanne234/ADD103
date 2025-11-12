@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Assignment</title>
+   <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+<div class="container mt-3">
+    <h2>Black Table</h2>
+    <p>Table will have a black background due to the .table-dark feature.</p>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Age</th>
+                <th>Birth Place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joe</td>
+                <td>21</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Amy</td>
+                <td>35</td>
+                <td>Houston</td>
+            </tr>
+            <tr>
+                <td>Joseph</td>
+                <td>5</td>
+                <td>St.Louis</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container mt-3">
+    <h2>Contextual Classes</h2>
+    <p>You can use contextual classes for table color, table rows or table cells. Using the classes .table-primary/success/info/warning/danger.</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Nickname</th>
+                <th>Pay Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Default</td>
+                <td>Default</td>
+                <td>100Default</td>
+            </tr>
+            <tr class="table-primary">
+                <td>Primary</td>
+                <td>Amy</td>
+                <td>20</td>
+            </tr>
+            <tr class="table-success">
+                <td>Success</td>
+                <td>Joji</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container mt-3">
+        <h2> Centered Image</h2>
+        <p>Image will be centered using utility classes.</p>
+        <img src="images/jesus.jpg" class="mx-auto d-block" style="width:50%">
+    </div>
+
+    <div class="container mt-3">
+        <h2>Dice</h2>
+        <p>Using .img-fluid class it makes the image responsive.</p>
+        <img class="img-fluid" src="images/dice.jpg" alt="Dice" width="1100" height="500">
+    </div>
+
+    <div class="container mt-3">
+        <p>Using .rounded circle class makes the image into a circular shape.</p>
+        <img src="images/image.jpg" class="rounded-circle" alt="food" width="300" height="200">
+    </div>
+</body>
+</html>
